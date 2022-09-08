@@ -23,7 +23,7 @@ Comme vous le constater, le dépôt a bien été créé :-)
 7 entrer dans le dépôt ChoixDeVacances 
 cd ChoixDeVacances
 
-8 Voir le statut du épôt
+8 Voir le statut du dépôt
 git status
 
 9 Vérifiez si GitHub a bien été configurer dans le dépôt grâce à la commande suivante :
@@ -33,3 +33,7 @@ origin	https://github.com/BrunoDefalque/ChoixDeVacances.git (fetch)
 origin	https://github.com/BrunoDefalque/ChoixDeVacances.git (push)
 
 10 Ajout de ce fichiers creationNouveauDepotGitHub.txt
+karimuchiwa
+sophiolashdze
+mattrimcotton
+blindfriend88
