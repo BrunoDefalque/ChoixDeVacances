@@ -1,39 +1,60 @@
+µMéthode pas à pas pour créer un nouveau dépôt local et sur GitHub.
+
 1 Création du répertoire ProjetMiniHackaton dans le dossier Bruno Defalque
+Ctrl +Maj +N
+ensuite le le renommer ProjetMiniHackaton
 
-2 Ouvrez un invite de commande.
+2 Ouvrez un invite de commande. Ci-dessous le chemin est celui de mon Mac !
+cd /Users/brunodefalque/ProjetMiniHackaton
 
-3 Création du répertoire ProjetMiniHackaton dans le dossier Bruno Defalque
-
-4 Aller dans le répertoire ProjetMiniHackaton cd ProjetMiniHackaton
-
-5 Créer le dépôt sur GitHub et sur le dépôt local en  tapant la commande suivante :
+3 Créer le dépôt sur GitHub et sur le dépôt local en  tapant la commande suivante :
 
 gh repo create ChoixDeVacances --public --clone
 
 Voici ci-dessous le résultat :
 ✓ Created repository BrunoDefalque/ChoixDeVacances on GitHub
 
-6 Tapez la commande dir pour Windows et  ls pour Mac pour vérifier si le dépôt a bien été créé ! Voici le résultat :
-
+4 Tapez la commande dir pour Windows et  ls pour Mac pour vérifier si le dépôt a bien été créé ! Voici le résultat :
 ProjetMiniHackaton brunodefalque$ ls
 ChoixDeVacances
-
 Comme vous le constater, le dépôt a bien été créé :-)
 
-7 entrer dans le dépôt ChoixDeVacances 
+4 entrer dans le dépôt ChoixDeVacances 
 cd ChoixDeVacances
 
-8 Voir le statut du dépôt
+5 Voir le statut du épôt
 git status
 
-9 Vérifiez si GitHub a bien été configurer dans le dépôt grâce à la commande suivante :
+6 Vérifiez si GitHub a bien été configurer dans le dépôt grâce à la commande suivante :
 git remote -v
 Voici le résultat :
 origin	https://github.com/BrunoDefalque/ChoixDeVacances.git (fetch)
 origin	https://github.com/BrunoDefalque/ChoixDeVacances.git (push)
 
-10 Ajout de ce fichiers creationNouveauDepotGitHub.txt
-karimuchiwa
-sophiolashdze
-mattrimcotton
-blindfriend88
+7 Ajout de ce fichiers creationNouveauDepotGitHub.txt en le collant dans notre répertoire
+
+8 Vérifier le statut.
+git status
+
+9 Ajouter tout les fichiers dans la zone d'index.
+git add *
+
+10 Faire le commit initial
+git commit -m "initial commit
+Voici le résultat :
+it commit -m "initial commit"
+[master (commit racine) b67ad91] initial commitwè<>
+
+11 On envoi tout sur la branche Master
+git push -u origin master
+Voici le résultat :
+master
+Énumération des objets: 3, fait.
+Décompte des objets: 100% (3/3), fait.
+Compression par delta en utilisant jusqu'à 6 fils d'exécution
+Compression des objets: 100% (3/3), fait.
+Écriture des objets: 100% (3/3), 734 octets | 734.00 Kio/s, fait.
+Total 3 (delta 0), réutilisés 0 (delta 0), réutilisés du pack 0
+To https://github.com/BrunoDefalque/ChoixDeVacances.git
+ * [new branch]      master -> master
+la branche 'master' est paramétrée pour suivre 'origin/master'.
