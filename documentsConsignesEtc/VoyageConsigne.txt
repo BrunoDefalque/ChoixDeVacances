@@ -1,0 +1,29 @@
+Voyage :
+Entrée de l’utilisateur : 
+Météo
+Budget
+
+Réponse du programme : 
+Pays pertinent
+Météo de la saison
+Prix des billets + temps de vol
+Pouvoir d’achat
+
+Pays :
+Suisse, Angleterre, Espagne
+Japon, Chine, Tahilande
+Afrique du sud, Maroc, Sénégal
+Canada, Etat-Unis, Argentine
+ Australie, Fidji, Nouvelle Zélande
+
+Taches :
+Amir : Pouvoir d’achat
+Karim : Convertisseur de monaie, prix des billets + temps de vol
+Bruno : Dépôt github
+Sofio : météo de chaque mois des pays Afrique, Amérique et Océanie
+Simon : météo de chaque mois des pays Europe et Asie.
+
+Autre idées :
+Cuisine (calcul de calories)
+Site sur le sport (programme desport pourperdre des calories)
+Ecologie (calcul l’empreinte carbonne)
