@@ -1,0 +1,19 @@
+Info = indice big mac
+Info = cout de vie
+Afr du sud : 2.22 – 37.94
+Japon : 3.14-62.77
+Chine : 2.77-40.31
+Turquie : 3.96-28.38
+Maroc : 2.05 – 29.71
+Sénégal : 1.80 - 25
+Suisse : 7.54 – 110.34
+Etas Unis : 4.80 – 69.92
+Canada : 4.64 – 68.76
+Nouvelle Zélande : 4.50 – 68.96
+Angleterre : 4.37 – 60.42
+Australie : 4.32 – 72.27
+Espagne : 4.23 – 47.51
+Argentine : 3.25 – 32.13
+Fidji : 3.90 – 39.37
+
+Source : https://fr.numbeo.com/co%C3%BBt-de-la-vie/classements-par-pays
