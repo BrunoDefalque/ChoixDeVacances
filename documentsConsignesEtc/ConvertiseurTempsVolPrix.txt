@@ -1,0 +1,22 @@
+
+Pays :
+
+Espagne 1 euro  2 h / 26 €
+Suisse 0.97e (franc)  1 h et 22 m / 80 €
+Angleterre 1.17e (Livre sterling)/  1 h 10 min/ 18€
+Japon 0,0071e (yen) /12 h 3 min/ 544 €
+Chine 0,14e (yuan) /14 h 45 min/ 1 812 €
+Thailande 0,028e (baht)/12 h et 20 min/ 667 €
+Afrique du sud 0,059e (rand) /10h 30min/ 314 €
+Maroc 0,095e (Dirham marocain)/ 2h 45min/ 20 €
+Sénégal 655,97e (Franc CFA) /5h45/ 346 €
+Canada 0,77e (Dollar canadien) /11h 58min /90 €
+Etat-Unis 1,01e (Dollar américain) /11h 43min/ 189 €
+Argentine 0,0072e (peso argentin) /14 heures, 52 min/ 820 €
+Australie 0,68e (Dollar australien) /22 h et 36 m/ 1 348 €
+Fidji 0,45e (Dollar de Fidji) /30h 21m/ 1 652 €
+Nouvelle Zélande 0,61e (Dollar néo-zélandais) /29h 05min/ 767€
+
+Tâches :
+Karim : Convertisseur de monaie, 
+Temps de vol, prix des billets 
