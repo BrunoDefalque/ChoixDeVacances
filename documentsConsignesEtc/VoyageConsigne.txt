@@ -1,13 +1,15 @@
 Voyage :
 Entrée de l’utilisateur : 
-Météo
-Budget
+Météo (froid/promenade/chaud)
+Date
+Budget(fourchette)
+
 
 Réponse du programme : 
 Pays pertinent
-Météo de la saison
+Température moyenne du mois
 Prix des billets + temps de vol
-Pouvoir d’achat
+Cout de la vie
 
 Pays :
 Suisse, Angleterre, Espagne
