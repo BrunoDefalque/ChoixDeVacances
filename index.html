@@ -1,0 +1,107 @@
+﻿<!doctype html>
+<html lang="fr-BE">
+	<head>
+	<meta charset="utf-8">
+	<title>BASSK Voyage</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<form name="inscription" id="inscription" method="get" action="zamboyle.synology.me">
+	<input type="hidden" name="repo" value="BrunoDefalque/ChoixVacances">
+	<input type="hidden" name="program" value="HackatonVoyages.java">
+	<input type="hidden" name="ChoixDestination">
+	
+	<img src="./montagnes.jpeg" alt="" height="auto" width="80%">
+	<h1>BASSK Voyage</h1>
+	
+	<fieldset>
+		<legend>Conditions de voyage</legend>
+		<p>
+			<label for="climat">Climat :</label><select id="climat" name="p1">
+			<option value="chaud" selected="selected">Chaud</option>
+			<option value="tempéré">Tempéré</option> 
+			<option value="froid">Froid</option> 
+			</select>	
+		</p>
+		<p>
+			<label for="budget">Budget maximum (en euro) :</label>
+			<input type="number" id="budget" name="p2" min="60" max="1000">
+		</p>
+		<p>
+			<label for="départ" >Date de départ : </label><input type="date" name="p3" id="départ"/>
+		</p>
+	</fieldset>
+
+	<!-- <br>
+
+	<fieldset>
+   		<legend> Vos coordonnées </legend>
+		<p>
+			<label for="nom"> Nom : </label><input type="text" name="nom" autocomplete="family-name" id="nom" required autofocus/>
+		</p>
+		<p> 
+			<label for="prenom">Prénom : </label><input type="text" name="prenom" id="prenom"/>
+		</p>
+		<p>
+			<label for="email">E-Mail : (exemple : jean.dupond@mail.com)</label><input type="email" name="email" id="email" required/>
+		</p>
+		<p>
+			<label for="naissance" >Date de naissance : </label><input type="date" name="naissance" id="naissance"/>
+		</p>
+		<p>
+			<label for="ci">Copie carte d'identité (word ou pdf): </label><input type="file" name="ci" id="ci" required accept=".doc,.docx,.pdf"/>
+		</p>
+	</fieldset>
+
+	<br /> -->
+
+	<!-- <fieldset>
+		<legend>Activités souhaités</legend>
+		<input id="theme1" type="checkbox" name="themes" value="sport">
+		<label for="theme1">Sport</label>
+		<input id="theme2" type="checkbox" name="themes" value="cuisine">
+		<label for="theme2">Cuisine</label>
+		<input id="theme3" type="checkbox" name="themes" value="voyage">
+		<label for="theme3">Voyages</label>
+		<input id="theme4" type="checkbox" name="themes" value="relax">
+		<label for="theme4">Relaxation</label>
+	</fieldset>
+
+	<br /> -->
+
+	<!-- <fieldset>
+		<legend>Type d'Climat souhaité </legend>
+		<p>
+			<input type="radio" name="periode" id="periodeH" value="hebdo" checked/><label for="periodeH">Newsletter hebdomadaire</label><br />
+			<input type="radio" name="periode" id="periodeM" value="mens" /><label for="periodeM">Newsletter mensuelle</label><br />
+			<input type="radio" name="periode" id="periodeT" value="trim" /><label for="periodeT">Newsletter trimestrielle</label> 
+		</p>
+	</fieldset>
+
+	<br> -->
+	
+	<!-- <fieldset>
+		<legend>Modalités de réception</legend>
+		<p>
+			<label for="duree">Durée de l'abonnement en mois (3 à 12)</label>
+			<input type="number" id="duree" name="duree" min="3" max="12">
+		</p>
+		<p>
+			<label for="heure">Heure de réception souhaitée </label>
+			<input type="time" name="heure" id="heure">
+		</p>
+		<p>
+			<label for="importance">Degré d'importance (0 à 100 par tranches de 10)</label>
+			<input type="range" name="importance" id="importance" min="0" max="100" step="10" value="0">
+		</p>
+	</fieldset>
+
+	<br> -->
+
+	<input type="submit" name="valid" id="valid" value="Rechercher une destination" />
+</form>
+
+
+</body>
+</html>
