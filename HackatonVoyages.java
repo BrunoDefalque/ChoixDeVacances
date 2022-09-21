@@ -4,7 +4,7 @@
 public class HackatonVoyages {
 
 	public static void main(String[] args) {
-		ChoixDestination();
+		ChoixDestination(p1);
 	}
 
 	static void ChoixDestination() {
