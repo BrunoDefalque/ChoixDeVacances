@@ -4,26 +4,44 @@
 public class HackatonVoyages {
 
 	public static void main(String[] args) {
-		ChoixDestination(p1);
+		String fonctionName = args[0];
+		if (fonctionName.equals("ChoixDestination")) {
+			if(args.length >= 4) {
+				
+				String meteo = args[1];
+				
+				int budget = Integer.parseInt(args[2]);
+				
+				Date dateDepart = DateFormat.parse(args[3]);
+				
+				ChoixDestination(meteo, budget, dateDepart);
+			}
+			else {
+				System.err.println("Il faut au moins 3 paramètres: meteo, budget et la date.");
+			}
+		}
+
 	}
 
-	static void ChoixDestination() {
+	static void ChoixDestination(String meteo, int budget, Date dateDepart ) {
 
 	//	String p1 = "chaud";
 
-		if (p1.equals("chaud")) {
+		if (meteo.equals("chaud")) {
 
 			System.out.println("Tu as de la chance, il faudra prévoir lunettes de soleil et crème solaire !");
 		}
 
-		else if (p1.equals("froid")) {
+		else if (meteo.equals("froid")) {
 
 			System.out.println(" tu as de la chance ! Tu vas certeinement skier :-) prévois quand même écharpe et bonnet");
 		}
 
-		else if (p1.equals("tempéré")) {
+		else if (meteo.equals("tempéré")) {
 
 			System.out.println(" tu as de la chance, tu vas découvrir des musées et des promenades ! Prévois quand même des bonnes chaussures de marche !");
+		} else {
+			System.err.println("Destination '"+meteo+"' non connue.");
 		}
 	}
 }
