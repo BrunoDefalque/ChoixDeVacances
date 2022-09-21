@@ -6,15 +6,16 @@ public class HackatonVoyages {
 	public static void main(String[] args) {
 		String fonctionName = args[0];
 		if (fonctionName.equals("ChoixDestination")) {
-			if(args.length >= 4) {
+			if(args.length >= 3) {
 				
 				String meteo = args[1];
 				
 				int budget = Integer.parseInt(args[2]);
 				
-				Date dateDepart = DateFormat.parse(args[3]);
-				
-				ChoixDestination(meteo, budget, dateDepart);
+				ChoixDestination(meteo, budget);
+
+				//Date dateDepart = DateFormat.parse(args[3]);				
+				//ChoixDestination(meteo, budget, dateDepart);
 			}
 			else {
 				System.err.println("Il faut au moins 3 paramètres: meteo, budget et la date.");
@@ -23,7 +24,7 @@ public class HackatonVoyages {
 
 	}
 
-	static void ChoixDestination(String meteo, int budget, Date dateDepart ) {
+	static void ChoixDestination(String meteo, int budget) {
 
 	//	String p1 = "chaud";
 
