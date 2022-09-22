@@ -24,15 +24,14 @@ public class HackatonVoyages {
 
 	}
 
-	static void ChoixDestination(String meteo, int budget) {
+	static void ChoixDestination(String meteo, int _budget) {
 
 	//	String p1 = "chaud";
 
 		if (meteo.equals("chaud")) {
 
 			System.out.println("Tu as de la chance, il faudra prévoir lunettes de soleil et crème solaire !");
-
-			budget();
+			
 		}
 
 		else if (meteo.equals("froid")) {
@@ -48,12 +47,12 @@ public class HackatonVoyages {
 		}
 	}
 
-	static int budget() {
+	static int Budget(int _budget) {
 
-		if (budget <= 1000) {
+		if (_budget <= 1000) {
 
 			System.out.println("test");
 		}
-		return budget;
+		return _budget;
 	}
 }
