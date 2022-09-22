@@ -31,7 +31,11 @@ public class HackatonVoyages {
 		if (meteo.equals("chaud")) {
 
 			System.out.println("Tu as de la chance, il faudra prévoir lunettes de soleil et crème solaire !");
-			
+
+			if (_budget <= 1000) {
+
+				System.out.println("test");
+			}
 		}
 
 		else if (meteo.equals("froid")) {
