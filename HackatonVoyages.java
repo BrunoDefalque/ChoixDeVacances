@@ -40,12 +40,22 @@ public class HackatonVoyages {
 
 		else if (meteo.equals("froid")) {
 
-			System.out.println(" tu as de la chance ! Tu vas certeinement skier :-) prévois quand même écharpe et bonnet");
+			System.out.println("Vous avez décidé de partir dans un pays froid !!");
+
+			if (_budget <= 10000) {
+
+				System.out.println(" vous pouvez aller en Suisse il y aura 1 °C");
+			}
 		}
 
 		else if (meteo.equals("tempéré")) {
 
-			System.out.println(" tu as de la chance, tu vas découvrir des musées et des promenades ! Prévois quand même des bonnes chaussures de marche !");
+			System.out.println(" vous avez décidé d'aller dans un pays tempéré");
+
+			if (_budget <= 10000) {
+
+				System.out.println(" vous pouvez aller en Angleterre il fera 15 °C");
+			}
 		} else {
 			System.err.println("Destination '"+meteo+"' non connue.");
 		}
