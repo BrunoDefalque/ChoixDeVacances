@@ -30,12 +30,12 @@ public class HackatonVoyages {
 
 		if (meteo.equals("chaud")) {
 
-			System.out.println("Tu as de la chance, il faudra prévoir lunettes de soleil et crème solaire !");
+			System.out.println(" vous avez décidé de partir au soleil");
 
-			if (_budget <= 1000) {
+			if (_budget <= 10000) {
 
-				System.out.println("test");
-			}
+			System.out.println("Vous pouvez partir au Maroc, il y aura 30°C");
+		}
 		}
 
 		else if (meteo.equals("froid")) {
