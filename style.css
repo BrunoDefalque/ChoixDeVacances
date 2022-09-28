@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(187, 187, 112);
+}
+
+h1{
+    font-size: 80px;
+}
+
+form fieldset{
+    background-color: blue;
+    color: aqua; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;00
+    border-radius: 30px;
+}
+form fieldset legend{
+    padding-top: 30px;
+    font-size: xx-large
+}
+
+#ci {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#ci:hover {
+    background-color: yellow;
+    border: 5px solid black;
+    font-size: 25px;
+    color: darkblue;
+}
