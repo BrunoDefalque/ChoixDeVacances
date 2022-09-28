@@ -30,31 +30,46 @@ public class HackatonVoyages {
 
 		if (meteo.equals("chaud")) {
 
-			System.out.println(" vous avez décidé de partir au soleil");
+			System.out.println(" vous avez décidé de partir au soleil<br>");
 
 			if (_budget <= 10000) {
 
-			System.out.println("Vous pouvez partir au Maroc, il y aura 30°C");
+			System.out.println("Vous pouvez partir au Maroc, il y aura 30°C, le vol sera de 90 €<br>");
+		}
+
+		else {
+
+			System.out.println("Vous devez indiquer un montant entre 0 et 10000 !!!");
 		}
 		}
 
 		else if (meteo.equals("froid")) {
 
-			System.out.println("Vous avez décidé de partir dans un pays froid !!");
+			System.out.println("Vous avez décidé de partir dans un pays froid !!<br>");
 
 			if (_budget <= 10000) {
 
-				System.out.println(" vous pouvez aller en Suisse il y aura 1 °C");
+				System.out.println(" vous pouvez aller en Suisse il y aura 1 °C, le prix du vol sera de 80 €");
+			}
+
+			else {
+
+				System.out.println("Vous devez indiquer un montant entre 0 et 10000 !!!");
 			}
 		}
 
 		else if (meteo.equals("tempéré")) {
 
-			System.out.println(" vous avez décidé d'aller dans un pays tempéré");
+			System.out.println(" vous avez décidé d'aller dans un pays tempéré !!!<br>");
 
 			if (_budget <= 10000) {
 
-				System.out.println(" vous pouvez aller en Angleterre il fera 15 °C");
+				System.out.println(" vous pouvez aller en Angleterre il fera 15 °C, le vol sera de 75€");
+			}
+
+			else {
+
+				System.out.println("Vous devez indiquer un montant entre 0 et 10000 !!!");
 			}
 		} else {
 			System.err.println("Destination '"+meteo+"' non connue.");
