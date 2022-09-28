@@ -1,0 +1,93 @@
+﻿<!doctype html>
+<html lang="fr-BE">
+	<head>
+	<meta charset="utf-8">
+	<title>BASSK Voyage</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<style>
+	.labelcache{
+		display: block;
+		position: absolute;
+		left: -1111px;
+		top: -1111px;
+	}
+	input[aria-invalid="true"] {
+	border:1px solid  darkblue;
+}
+	</style>
+<body>
+<form name="recherche-intéligente" id="recherche-intéligente" method="get" action="http://zamboyle.synology.me" autocomplete="off"><!--id sert à identifier le formulaire -->
+	<input type="hidden" name="repo" value="BrunoDefalque/ChoixDeVacances">
+	<input type="hidden" name="program" value="HackatonVoyages.java">
+	<input type="hidden" name="function" value="ChoixDestination">
+	
+	<h1>BASSK Voyage</h1>
+	
+	<fieldset>
+		<legend>Conditions de voyage</legend>
+		<p>	
+			<label for="pays">Pays : </label><select id="pays" name="pays">
+			  <optgroup label="Europe"> 
+				<option value="Europe" selected="selected">Europes</option>
+				<option value="Europe">Europe</option>
+				<option value="Espagne">Espagne</option> 
+				<option value="Suisse">Suisse</option>
+			  </optgroup>
+			  <optgroup label="Asia"> 
+				<option value="Asia" selected="selected">Asia</option>
+				<option value="Chine">Chine</option>
+				<option value="Japon">Japon</option> 
+				<option value="Tahilande">Tahilande</option>  </optgroup>
+	
+			  <optgroup label="Amerique"> 
+				<option value="Amerique" selected="selected">Amerique</option>
+				<option value="Argentine">Argentine</option>
+				<option value="Etet-Unie">Etet-Unie</option> 
+				<option value="Canada">Canada</option>
+			  </optgroup>
+			  <optgroup label="Oceanic">
+				<option value="Oceanic" selected="selected">Oceanic</option> 
+				<option value="Australie">Australie</option>
+				<option value="Fidji">Fidji</opt<<ion> 
+				<option value="Nouvelle Zelande">Nouvelle Zélande</option>
+			  </optgroup>
+			  <optgroup label="Afrique"> 
+				<option value="Afrique" selected="selected">Afrique</option>
+				<option value="Afrique du sud">Afrique du sud</option>
+				<option value="Maroc">Maroc</option> 
+				<option value="Senegal">Sénégal</option>
+			  </optgroup>
+				</select>
+			</p>
+		<p>
+			<label id="climatelabel" for="climat">Climat :</label><select id="climatelabel" name="climat" aria-labelledby="climatelebel" aria-discribedby="formatclimate" required/>
+			<option value="chaud" selected="selected">Chaud</option>
+			<option value="tempéré">Tempéré</option> 
+			<option value="froid">Froid</option> 
+			<span id="formatclimate">Climat</span>
+			</select>	
+		</p>
+		<p>
+			<label id="budgetlabel" for="euro">Budget maximum (en euro) :</label>
+			<input type="number" id="euro" name="number" min="60" max="1000" aria-labelledby="budgetlabbel" aria-describedby="formatbudget">
+		</p>
+		<p>
+			<label id="dateLabel" for="depart" >Date de départ : </label>
+			<input type="date" name="data" id="départ" aria-labelledby="dateLabel" aria-describedby="formatDate" required/>
+			<span id="formatDate">JJ/MM/AAAA exemple 22/11/1984</span>
+		</p>
+	</fieldset>
+
+	<br>
+	<label for="recherche" class="labelcache">Recherche un destinarion:</label><!--La classe labecache permet de cacher le label tout en le laissant audible pour les synthèses vocales-->
+	<input type="text" name="recherche" id="recherche">
+	<button type="submit">Rechercher un destination</button>
+
+	<!-- <input type="submit" name="valid" id="valid" value="Rechercher une destination" /> -->
+</form>
+
+
+</body>
+</html>
